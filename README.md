@@ -32,3 +32,71 @@ Ensure your device is connected to the internet to download and view images from
 If you encounter any issues during usage, please check your internet connection and try again. 
 This is a preliminary guide to help users get started and explore the Mypicsearch app effectively and 
 effortlessly.
+
+FUNCTIONALITY LIST OF MYPICSEARCH TASK 
+
+MainActivity 
+Functionality: 
+• Display a list of images from an API when the application starts. 
+• Allow users to enter search keywords and perform new image searches. 
+• Implement pagination and load more images when scrolling to the end of the list. 
+• Apply Shared Element Transition effect when switching from FullScreenImageActivity to 
+  MainActivity to create a smoother experience when the user selects an image. 
+
+FullScreenImageActivity 
+Functionality: 
+• Display a full-screen image from the list when a user taps on an image in MainActivity. 
+• Allow users to zoom in, zoom out, and pan the image. 
+• Provide a button to open the image source in a web browser. 
+• Apply Shared Element Transition effect when switching from MainActivity to 
+  FullScreenImageActivity to create a smoother experience when the user selects an image. 
+
+PresentationActivity 
+Functionality: 
+• Display a slideshow of images automatically. 
+• Allow users to control the slideshow (pause, resume) and switch between images. 
+  OriginalSourceActivity 
+  Functionality: 
+• Display the original source of an image in a web browser when the user taps on the "Open Source" 
+  button from FullScreenImageActivity. 
+
+ZoomImageView 
+Functionality: 
+• Custom ImageView that supports zooming and panning of images. 
+• Allow users to zoom in, zoom out, and pan the image to view details. 
+
+ZoomActivity 
+Functionality: 
+• Display an image with zoom, pan functionalities similar to ZoomImageView. 
+• Provide a user interface for interacting with the image. 
+
+ImageAdapter 
+Functionality: 
+• Manage and display a list of images in a RecyclerView. 
+• Allow updating the list of images and handle events when users click on an image. 
+
+CustomImagePagerAdapter 
+Functionality: 
+• Manage and display a list of images in a ViewPager. 
+• Load and display images from URLs using the Glide library. 
+
+SpacingItemDecoration 
+Functionality: 
+• Add spacing between items in a RecyclerView. 
+• Provide customizable spacing between items. 
+
+SearchService 
+Functionality: 
+• Define API methods for searching images from the server. 
+• Use Retrofit to send requests and receive responses from the server. 
+
+MainActivity and RetrofitClient 
+Functionality: 
+• MainActivity is the main screen of the application. 
+• RetrofitClient is a singleton object used to initialize Retrofit and configure sending and receiving 
+  data from the server. 
+
+GestureListener and ScaleListener 
+Functionality: 
+• GestureListener and ScaleListener are used in ZoomImageView to handle swipe and scale events 
+on images, allowing users to zoom, pan, and interact with images.
