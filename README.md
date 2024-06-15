@@ -1,5 +1,9 @@
 USER GUIDE FOR MYPICSEARCH APP 
 
+This is Serper account:
+          daovinhkhang08342@gmail.com
+password: Khang0834684568
+
 1. Opening the App and Loading Image List 
 Upon launching the app, a list of images will automatically load from the server. 
 If no images are displayed initially, try searching by entering a keyword into the search box and pressing 
